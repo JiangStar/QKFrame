@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C0E3F9849627F39FA87A385 /* Pods_QKFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C299C9724DD4D44B15B3822C /* Pods_QKFrame.framework */; };
 		166B75B11CDF7D52003A829E /* QKNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B75B01CDF7D52003A829E /* QKNetworkTests.swift */; };
 		167D335F1CDF8A7E00823514 /* QKLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167D335E1CDF8A7E00823514 /* QKLogger.swift */; };
 		167D33611CDFAB3D00823514 /* QKLoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167D33601CDFAB3D00823514 /* QKLoggerTests.swift */; };
@@ -19,8 +20,6 @@
 		16CCCDA31CC7B9AF00E73D1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CCCDA11CC7B9AF00E73D1C /* LaunchScreen.storyboard */; };
 		16CCCDAE1CC7B9AF00E73D1C /* QKFrameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CCCDAD1CC7B9AF00E73D1C /* QKFrameTests.swift */; };
 		16CCCDB91CC7B9AF00E73D1C /* QKFrameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16CCCDB81CC7B9AF00E73D1C /* QKFrameUITests.swift */; };
-		5C87B867795E27727211F192 /* Pods_QKFrame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AA5AEF7E7F9D827264C0074 /* Pods_QKFrame.framework */; };
-		5DD197FBF4A25A29D8EB43B6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93376C698E6A0F13D8090DC /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,13 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AA5AEF7E7F9D827264C0074 /* Pods_QKFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QKFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		166B75B01CDF7D52003A829E /* QKNetworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QKNetworkTests.swift; sourceTree = "<group>"; };
 		167D335E1CDF8A7E00823514 /* QKLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QKLogger.swift; sourceTree = "<group>"; };
 		167D33601CDFAB3D00823514 /* QKLoggerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QKLoggerTests.swift; sourceTree = "<group>"; };
 		169994031CC7D03C003C7559 /* QKColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QKColor.swift; sourceTree = "<group>"; };
 		169994051CDF36A1003C7559 /* QKNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QKNetwork.swift; sourceTree = "<group>"; };
-		169994091CDF7832003C7559 /* Pods_QKFrame.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_QKFrame.framework; path = "../../../Library/Developer/Xcode/DerivedData/QKFrame-dmbetcyokemnzpazytreunxwxsnk/Build/Products/Debug-iphonesimulator/Pods_QKFrame.framework"; sourceTree = "<group>"; };
 		16CCCD951CC7B9AF00E73D1C /* QKFrame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QKFrame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16CCCD981CC7B9AF00E73D1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16CCCD9A1CC7B9AF00E73D1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,9 +58,10 @@
 		16CCCDB41CC7B9AF00E73D1C /* QKFrameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKFrameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16CCCDB81CC7B9AF00E73D1C /* QKFrameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QKFrameUITests.swift; sourceTree = "<group>"; };
 		16CCCDBA1CC7B9AF00E73D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17E57CEB3AD93B134A8341E3 /* Pods-QKFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QKFrame/Pods-QKFrame.debug.xcconfig"; sourceTree = "<group>"; };
+		AE657EDCAA04FAFBE4030941 /* Pods-QKFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-QKFrame/Pods-QKFrame.release.xcconfig"; sourceTree = "<group>"; };
+		C299C9724DD4D44B15B3822C /* Pods_QKFrame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QKFrame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49E6BF1829F396B32CDFABC /* Pods-QKFrame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKFrame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QKFrame/Pods-QKFrame.debug.xcconfig"; sourceTree = "<group>"; };
 		D93376C698E6A0F13D8090DC /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E178F22187904C7584DBE3F6 /* Pods-QKFrame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QKFrame.release.xcconfig"; path = "Pods/Target Support Files/Pods-QKFrame/Pods-QKFrame.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C87B867795E27727211F192 /* Pods_QKFrame.framework in Frameworks */,
-				5DD197FBF4A25A29D8EB43B6 /* Pods.framework in Frameworks */,
+				0C0E3F9849627F39FA87A385 /* Pods_QKFrame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,8 +107,8 @@
 				16CCCDAC1CC7B9AF00E73D1C /* QKFrameTests */,
 				16CCCDB71CC7B9AF00E73D1C /* QKFrameUITests */,
 				16CCCD961CC7B9AF00E73D1C /* Products */,
-				7A071334538069D80F2FCC0B /* Pods */,
 				DA547BCA1A2C8B6308493B2D /* Frameworks */,
+				241277EDCED5BBFCE5C09BCA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,11 +156,11 @@
 			path = QKFrameUITests;
 			sourceTree = "<group>";
 		};
-		7A071334538069D80F2FCC0B /* Pods */ = {
+		241277EDCED5BBFCE5C09BCA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				17E57CEB3AD93B134A8341E3 /* Pods-QKFrame.debug.xcconfig */,
-				E178F22187904C7584DBE3F6 /* Pods-QKFrame.release.xcconfig */,
+				D49E6BF1829F396B32CDFABC /* Pods-QKFrame.debug.xcconfig */,
+				AE657EDCAA04FAFBE4030941 /* Pods-QKFrame.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -171,9 +168,8 @@
 		DA547BCA1A2C8B6308493B2D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				169994091CDF7832003C7559 /* Pods_QKFrame.framework */,
-				0AA5AEF7E7F9D827264C0074 /* Pods_QKFrame.framework */,
 				D93376C698E6A0F13D8090DC /* Pods.framework */,
+				C299C9724DD4D44B15B3822C /* Pods_QKFrame.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,15 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16CCCDBD1CC7B9AF00E73D1C /* Build configuration list for PBXNativeTarget "QKFrame" */;
 			buildPhases = (
-				33A5A4D35ECBB3507D94AAD7 /* Check Pods Manifest.lock */,
 				D19B05DFC8913D0F37848729 /* 📦 Check Pods Manifest.lock */,
 				16CCCD911CC7B9AF00E73D1C /* Sources */,
 				16CCCD921CC7B9AF00E73D1C /* Frameworks */,
 				16CCCD931CC7B9AF00E73D1C /* Resources */,
 				780ADE7E33CB53F4616D2CB4 /* 📦 Embed Pods Frameworks */,
 				4C6438CAB05E62A620659B32 /* 📦 Copy Pods Resources */,
-				563A29D6D9047E8034F3EDA8 /* Embed Pods Frameworks */,
-				842F662BD501B9E1FAFFD80C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,21 +304,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		33A5A4D35ECBB3507D94AAD7 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		4C6438CAB05E62A620659B32 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -341,21 +319,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QKFrame/Pods-QKFrame-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		563A29D6D9047E8034F3EDA8 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		780ADE7E33CB53F4616D2CB4 /* 📦 Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,21 +332,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QKFrame/Pods-QKFrame-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		842F662BD501B9E1FAFFD80C /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D19B05DFC8913D0F37848729 /* 📦 Check Pods Manifest.lock */ = {
@@ -554,7 +502,7 @@
 		};
 		16CCCDBE1CC7B9AF00E73D1C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17E57CEB3AD93B134A8341E3 /* Pods-QKFrame.debug.xcconfig */;
+			baseConfigurationReference = D49E6BF1829F396B32CDFABC /* Pods-QKFrame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QKFrame/Info.plist;
@@ -566,7 +514,7 @@
 		};
 		16CCCDBF1CC7B9AF00E73D1C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E178F22187904C7584DBE3F6 /* Pods-QKFrame.release.xcconfig */;
+			baseConfigurationReference = AE657EDCAA04FAFBE4030941 /* Pods-QKFrame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QKFrame/Info.plist;
